@@ -1,10 +1,9 @@
 {
-  "semi": false,
+  "plugins": ["./node_modules/prettier-plugin-rust"],
+  "semi": true,
   "trailingComma": "all",
   "printWidth": 88,
   "tabWidth": 2,
-  "useTabs": false,
-  "singleQuote": false,
-  "endOfLine": "lf",
+  "singleQuote": true,
   "arrowParens": "always"
 }

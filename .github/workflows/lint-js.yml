@@ -8,8 +8,8 @@ on:
       - master
   pull_request:
     paths-ignore:
-      - "src-tauri/**"
-      - "README.md"
+      - 'src-tauri/**'
+      - 'README.md'
 
 jobs:
   build:
@@ -37,7 +37,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: "pnpm"
+          cache: 'pnpm'
 
       - name: Install dependencies from lockfile
         run: pnpm install --frozen-lockfile

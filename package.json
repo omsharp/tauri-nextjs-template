@@ -18,7 +18,8 @@
     "build": "tauri build",
     "dev": "tauri dev",
     "lint": "next lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",

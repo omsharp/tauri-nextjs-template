@@ -29,6 +29,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@prettier/plugin-xml": "^2.2.0",
     "@tauri-apps/cli": "^1.2.3",
     "@testing-library/dom": "^9.0.0",
